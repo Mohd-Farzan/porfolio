@@ -1,5 +1,9 @@
 import {
   linkedin, instagram,github,linkedin1, instagram1,github1,responsive, react, fullstack,EMS,ecommerce,crud,crud1,crud2,crud3,EMS1,EMS2,EMS3,ecommerce1,ecommerce2,ecommerce3,
+  portfolio,
+  portfolio1,
+  portfolio2,
+  portfolio3,
 } from '../assets';
 
 const social = [
@@ -137,6 +141,16 @@ const projects = [
     carousel: [crud1,crud2,crud3],
     source_link: 'https://github.com/Mohd-Farzan/crudApp.git',
     live_link: 'https://tvshowbox.netlify.app/',
+  },
+  {
+    id: 3,
+    name: 'Portfolio',
+    desc: 'A visually captivating portfolio website built using React and Three.js, showcasing projects, services, skills and an About Me section. The site features smooth animations, responsive design, and an interactive contact form, offering an engaging and user-friendly experience.',
+    tech: ['HTML5','CSS', 'tailwindcss', 'JavaScript','react','threejs'],
+    img: portfolio,
+    carousel: [portfolio1,portfolio2,portfolio3],
+    source_link: 'https://github.com/Mohd-Farzan/porfolio.git',
+    live_link: 'https://mohd-farzan-portfolio.netlify.app/',
   },
 ];
 const services = [
