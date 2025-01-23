@@ -143,7 +143,7 @@ const projects = [
     live_link: 'https://tvshowbox.netlify.app/',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Portfolio',
     desc: 'A visually captivating portfolio website built using React and Three.js, showcasing projects, services, skills and an About Me section. The site features smooth animations, responsive design, and an interactive contact form, offering an engaging and user-friendly experience.',
     tech: ['HTML5','CSS', 'tailwindcss', 'JavaScript','react','threejs'],
