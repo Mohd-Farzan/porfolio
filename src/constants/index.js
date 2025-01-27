@@ -149,7 +149,7 @@ const projects = [
     tech: ['HTML5','CSS', 'tailwindcss', 'JavaScript','react','threejs'],
     img: portfolio,
     carousel: [portfolio1,portfolio2,portfolio3],
-    source_link: 'https://github.com/Mohd-Farzan/porfolio.git',
+    source_link: 'https://github.com/mohdfarzan/porfolio.git',
     live_link: 'https://mohd-farzan-portfolio.netlify.app/',
   },
 ];
