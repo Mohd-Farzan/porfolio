@@ -114,8 +114,8 @@ const technologies = [
 const projects = [
   {
     id: 1,
-    name: 'Employee Management System',
-    desc: 'I created an Employee Management System using PHP and CodeIgniter with secure authentication, data validation, and a user-friendly Bootstrap interface. The Admin panel enables efficient monitoring and management of employee records, ensuring a reliable and scalable solution',
+    name: 'Student Management System',
+    desc: 'I created Student Management System using PHP and CodeIgniter with secure authentication, data validation, and a user-friendly Bootstrap interface. The Admin panel enables efficient monitoring and management of Student records, ensuring a reliable and scalable solution',
     tech: ['html','css','bootstrap','javascript','php','sql'],
     img: EMS,
     carousel: [EMS1,EMS2,EMS3],
