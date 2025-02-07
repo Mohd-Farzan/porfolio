@@ -140,7 +140,6 @@ const projects = [
     img: crud,
     carousel: [crud1,crud2,crud3],
     source_link: 'https://github.com/Mohd-Farzan/crudApp.git',
-    live_link: 'https://tvshowbox.netlify.app/',
   },
   {
     id: 4,
@@ -150,7 +149,7 @@ const projects = [
     img: portfolio,
     carousel: [portfolio1,portfolio2,portfolio3],
     source_link: 'https://github.com/mohdfarzan/porfolio.git',
-    live_link: 'https://mohd-farzan-portfolio.netlify.app/',
+    live_link: 'https://mohdfarzan-portfolio.netlify.app/',
   },
 ];
 const services = [
