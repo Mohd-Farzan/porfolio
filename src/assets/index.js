@@ -18,7 +18,7 @@ import instagram1 from './socials/instagram (1).png';
 import ecommerce from './projects/ecommerce.png';
 import crud from './projects/crud.png';
 import EMS from './projects/EMS.png';
-import portfolio from './projects/Portfolio.png';
+import portfolio from './projects/portfolio.png';
 
 // carousel img
 import ecommerce1 from './carousels/ecommerce1.png';

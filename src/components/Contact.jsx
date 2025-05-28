@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import SectionWrapper from '../hoc';
 import { fadeIn, textVariant, slideIn } from '../utils/motion';
 import contact from '../assets/contact.svg';
 import style from './styles/contact.module.css';
+import emailjs from 'emailjs-com'; 
 
 const Contact = () => {
   const [form, setForm] = useState({
@@ -11,6 +12,8 @@ const Contact = () => {
     email: '',
     message: '',
   });
+
+  const formRef = useRef(); 
 
   const handleChange = (e) => {
     const { target } = e;
@@ -22,19 +25,31 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const form = event.target;
-    const isValid = form.checkValidity();
-    if (isValid) {
-      // Submit the form
-      form.submit();
-      setForm({
-        name: '',
-        email: '',
-        message: '',
-      });
-    }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_cavsipw', 
+        'template_m76cnce',
+        formRef.current,
+        '8DtF452WG1ve5dy6m'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert('Message sent successfully!');
+          setForm({
+            name: '',
+            email: '',
+            message: '',
+          });
+        },
+        (error) => {
+          console.log(error.text);
+          alert('Failed to send the message, please try again.');
+        }
+      );
   };
 
   return (
@@ -47,10 +62,9 @@ const Contact = () => {
       </motion.p>
       <div className={style.container}>
         <motion.form
+          ref={formRef}
           variants={slideIn('left', '', 0, 1)}
           onSubmit={handleSubmit}
-          action="https://formspree.io/f/mgeqgkdd"
-          method="post"
           className={style.form_container}
         >
           <div className={style.form}>

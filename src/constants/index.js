@@ -130,7 +130,7 @@ const projects = [
     img: ecommerce,
     carousel: [ecommerce1,ecommerce2,ecommerce3],
     source_link: 'https://github.com/Mohd-Farzan/fnf.git',
-    live_link: 'https://fnf-eun3.onrender.com/auth/login/',
+    live_link: 'https://the-lawncollection.onrender.com/',
   },
   {
     id: 3,
