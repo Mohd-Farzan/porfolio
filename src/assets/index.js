@@ -19,7 +19,7 @@ import ecommerce from './projects/ecommerce.png';
 import crud from './projects/crud.png';
 import EMS from './projects/EMS.png';
 import portfolio from './projects/portfolio.png';
-import Pc from './projects/portfolio.png';
+import Pc from './projects/Pc.png';
 
 // carousel img
 import ecommerce1 from './carousels/ecommerce1.png';
@@ -34,9 +34,9 @@ import EMS3 from './carousels/EMS3.png';
 import portfolio1 from'./carousels/portfolio1.png';
 import portfolio2 from './carousels/portfolio2.png';
 import portfolio3 from './carousels/portfolio3.png';
-import pc1 from'./carousels/portfolio1.png';
-import pc2 from './carousels/portfolio2.png';
-import pc3 from './carousels/portfolio3.png';
+import pc1 from'./carousels/pc1.png';
+import pc2 from './carousels/pc2.png';
+import pc3 from './carousels/pc3.png';
 // services
 import responsive from './services/responsive.gif';
 import react from './services/react.gif';
