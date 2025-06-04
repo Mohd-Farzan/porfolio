@@ -19,6 +19,7 @@ import ecommerce from './projects/ecommerce.png';
 import crud from './projects/crud.png';
 import EMS from './projects/EMS.png';
 import portfolio from './projects/portfolio.png';
+import Pc from './projects/portfolio.png';
 
 // carousel img
 import ecommerce1 from './carousels/ecommerce1.png';
@@ -33,12 +34,14 @@ import EMS3 from './carousels/EMS3.png';
 import portfolio1 from'./carousels/portfolio1.png';
 import portfolio2 from './carousels/portfolio2.png';
 import portfolio3 from './carousels/portfolio3.png';
-
+import pc1 from'./carousels/portfolio1.png';
+import pc2 from './carousels/portfolio2.png';
+import pc3 from './carousels/portfolio3.png';
 // services
 import responsive from './services/responsive.gif';
 import react from './services/react.gif';
 import fullstack from './services/fullstack.gif';
 
 export {
-  logo1, light, dark, facebook, instagram, github, linkedin, twitter, facebook1, instagram1, github1, twitter1, linkedin1, ecommerce, crud, EMS,portfolio,ecommerce1,ecommerce2,ecommerce3,crud1,crud2,crud3,EMS1,EMS2,EMS3,portfolio1,portfolio2,portfolio3, responsive, react, fullstack,
+  logo1, light, dark, facebook, instagram, github, linkedin, twitter, facebook1, instagram1, github1, twitter1, linkedin1, ecommerce, crud, EMS,portfolio,ecommerce1,ecommerce2,ecommerce3,crud1,crud2,crud3,EMS1,EMS2,EMS3,portfolio1,portfolio2,portfolio3, responsive, react, fullstack,Pc,pc1,pc2,pc3
 };
