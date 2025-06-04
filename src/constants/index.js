@@ -4,6 +4,7 @@ import {
   portfolio1,
   portfolio2,
   portfolio3,
+  Pc,pc1,pc2,pc3
 } from '../assets';
 
 const social = [
@@ -114,13 +115,13 @@ const technologies = [
 const projects = [
   {
     id: 1,
-    name: 'Employee Management System',
-    desc: 'I created an Employee Management System using PHP and CodeIgniter with secure authentication, data validation, and a user-friendly Bootstrap interface. The Admin panel enables efficient monitoring and management of employee records, ensuring a reliable and scalable solution',
-    tech: ['html','css','bootstrap','javascript','php','sql'],
-    img: EMS,
-    carousel: [EMS1,EMS2,EMS3],
-    source_link: 'https://github.com/Mohd-Farzan/EmployeeManagementSystem.git',
-    live_link: 'http://my-project.wuaze.com/',
+    name: 'PulseCare-Healtchcare Website',
+    desc: 'I created a healtch care website which name is pulsecare in this website you can find the all kind of doctor in one platform and you can easiliy book your appointment for emergency you can connect with doctor through video calling and many more things are there . visit and use this',
+    tech: ['mongodb','express','reactjs','nodjs','tailwindcss','atlas'],
+    img: Pc,
+    carousel: [pc1,pc2,pc3],
+    source_link: 'https://github.com/Mohd-Farzan/onlineDoctorAppointment/tree/main',
+    live_link: 'https://pc-pulsecare.netlify.app/',
   },
   {
     id: 2,
